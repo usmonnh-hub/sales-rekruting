@@ -16,6 +16,7 @@
     --color-emerald-950: oklch(26.2% 0.051 172.552);
     --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-gray-500: oklch(55.1% 0.027 264.364);
+    --color-gray-600: oklch(44.6% 0.03 256.802);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -910,6 +911,9 @@
   .border-gray-400 {
     border-color: var(--color-gray-400);
   }
+  .border-white {
+    border-color: var(--color-white);
+  }
   .bg-\[\#061B3A\] {
     background-color: #061B3A;
   }
@@ -1048,6 +1052,9 @@
   .p-\[10px_15px\] {
     padding: 10px 15px;
   }
+  .p-\[10px_30px\] {
+    padding: 10px 30px;
+  }
   .p-\[12px\] {
     padding: 12px;
   }
@@ -1056,6 +1063,9 @@
   }
   .p-\[20px\] {
     padding: 20px;
+  }
+  .p-\[20px_40px\] {
+    padding: 20px 40px;
   }
   .p-\[30px_10px\] {
     padding: 30px 10px;
@@ -1411,6 +1421,15 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .outline-none {
+    --tw-outline-style: none;
+    outline-style: none;
+  }
+  .placeholder\:text-gray-600 {
+    &::placeholder {
+      color: var(--color-gray-600);
+    }
   }
   .sm\:mt-0 {
     @media (width >= 40rem) {
@@ -2817,6 +2836,11 @@
       font-size: 20px;
     }
   }
+  .lg\:text-\[24px\] {
+    @media (width >= 64rem) {
+      font-size: 24px;
+    }
+  }
   .lg\:text-\[25px\] {
     @media (width >= 64rem) {
       font-size: 25px;
@@ -2825,6 +2849,11 @@
   .lg\:text-\[30px\] {
     @media (width >= 64rem) {
       font-size: 30px;
+    }
+  }
+  .lg\:text-\[35px\] {
+    @media (width >= 64rem) {
+      font-size: 35px;
     }
   }
   .lg\:text-\[40px\] {
