@@ -2496,6 +2496,11 @@
       padding: 50px 0;
     }
   }
+  .lg\:p-\[50px_0px\] {
+    @media (width >= 64rem) {
+      padding: 50px 0px;
+    }
+  }
   .lg\:p-\[100px\] {
     @media (width >= 64rem) {
       padding: 100px;
