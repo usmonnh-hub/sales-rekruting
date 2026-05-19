@@ -655,6 +655,9 @@
   .justify-between {
     justify-content: space-between;
   }
+  .justify-center {
+    justify-content: center;
+  }
   .justify-start {
     justify-content: flex-start;
   }
@@ -669,6 +672,9 @@
   }
   .gap-\[0px\] {
     gap: 0px;
+  }
+  .gap-\[5px\] {
+    gap: 5px;
   }
   .gap-\[10px\] {
     gap: 10px;
@@ -2257,6 +2263,11 @@
   .lg\:w-\[350px\] {
     @media (width >= 64rem) {
       width: 350px;
+    }
+  }
+  .lg\:w-\[380px\] {
+    @media (width >= 64rem) {
+      width: 380px;
     }
   }
   .lg\:w-\[400px\] {
